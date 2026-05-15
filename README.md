@@ -1,3 +1,5 @@
+built in progress
+
 # 🦺 SafeGuard — Industrial PPE Detection
 
 > Real-time PPE compliance detection for construction sites  
