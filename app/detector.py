@@ -42,7 +42,7 @@ class PPEDetector:
         if not os.path.exists(model_path):
             raise FileNotFoundError(
                 f"Model not found at {model_path}. "
-                f"Download best.pt from Colab and place it in models/"
+                f"Download best.pt from Colab and place it in model/"
             )
         self.model = YOLO(model_path)
         self.model_path = model_path
