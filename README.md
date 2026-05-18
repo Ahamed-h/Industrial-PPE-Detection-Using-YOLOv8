@@ -121,20 +121,20 @@ streamlit run streamlit_app.py
 ---
 
 ## Project Structure
+
+```bash
 safeguard/
 ├── app/
-│   ├── detector.py      # YOLO inference + annotation logic
-│   ├── alert.py         # Violation logging + severity classification
-│   └── config.py        # Environment config
+│   ├── detector.py          # YOLO inference + annotation logic
+│   ├── alert.py             # Violation logging + severity classification
+│   └── config.py            # Environment configuration
 ├── model/
-│   └── best.pt          # Fine-tuned YOLOv8n weights
-├── model_result/        # Training metrics and plots
-├── streamlit_app.py     # Main Streamlit application
-├── DECISIONS.md         # Technical decisions log
-└── requirements.txt
-
----
-
+│   └── best.pt              # Fine-tuned YOLOv8n weights
+├── model_result/            # Training metrics, confusion matrix, and plots
+├── streamlit_app.py         # Main Streamlit application
+├── DECISIONS.md             # Technical decisions and architecture notes
+└── requirements.txt         # Project dependencies
+```
 ## What Broke and How I Fixed It
 
 **1. data.yaml paths breaking on Colab**  
