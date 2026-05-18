@@ -6,7 +6,7 @@ built in progress
 > using a fine-tuned YOLOv8n model — detects helmet, vest,  
 > and mask violations instantly from any image.
 
-🔴 **Live Demo:** [https://ppe-detect-yolov8n.streamlit.app]  
+🔴 **Live Demo:** [under development]  
 📁 **Dataset:** [Construction Site Safety — Roboflow](https://universe.roboflow.com/roboflow-universe-projects/construction-site-safety)
 
 ---
